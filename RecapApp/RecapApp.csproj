@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows7.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="YamlDotNet" Version="11.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\code\iRacingSdkWrapper\iRacingSdkWrapper\iRacingSdkWrapper.csproj" />
+    <ProjectReference Include="..\iRacingSdkWrapper\iRacingSdkWrapper\iRacingSdkWrapper.csproj" />
+  </ItemGroup>
+
+</Project>
